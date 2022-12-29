@@ -1,12 +1,4 @@
-# Namespaced project name that the target belongs to
 project: robotstxt
-
-# Target name (should be unique within the project)
 target: robotstxt-robotstxt-fuzz
-
-# Base image to run the binary in.
-# image: ghcr.io/lotdeef/robotstxt:latest
-
-# List of commands used to test the target
 cmds:
-  - cmd: ./fuzz.libfuzzer
+  - cmd: ./parsebytes-fuzz.libfuzzer

@@ -1,0 +1,4 @@
+project: robotstxt
+target: robotstxt-robotstxt-fuzz
+cmds:
+  - cmd: ./parsebytes-fuzz.libfuzzer
